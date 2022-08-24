@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_desktop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/bg_broder_16dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_broder_16dp_top"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/tv_home"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_AboutMe01"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text="About me"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_contract01"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Contract "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"  >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="About me"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_in41"
+                android:text="Grow up in Binh Duong."
+                android:textSize="12dp"
+                android:padding="2dp"
+                android:layout_marginHorizontal="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_broder_8dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_in42"
+                android:text="Learning at Hutech."
+                android:textSize="12dp"
+                android:layout_marginHorizontal="5dp"
+                android:padding="2dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_broder_8dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_in43"
+                android:text="Strong point is Moneyless."
+                android:padding="2dp"
+                android:textSize="12dp"
+                android:layout_marginHorizontal="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_broder_8dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tv_in44"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:text="Love animal and stories"
+                android:textSize="12dp"
+                android:layout_marginHorizontal="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_broder_8dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:id="@+id/tv_in45"
+                android:text="Single,Sadboiz part time"
+                android:textSize="12dp"
+                android:layout_marginHorizontal="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_broder_8dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_width="161dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_broder_8dp_2"
+                    android:layout_height="214.3333dp"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="158dp"
+                    android:layout_height="210.66666667dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/roundedImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/in41_iv1"
+                        android:scaleType="centerCrop"/>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
