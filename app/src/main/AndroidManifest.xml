@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".m002_act" />
+        <activity android:name=".m003_act" />
     </application>
 
 </manifest>

@@ -16,6 +16,7 @@
         android:orientation="vertical">
 
         <TableRow
+
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@drawable/bg_broder_16dp_top"
@@ -23,6 +24,7 @@
             android:orientation="horizontal">
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:id="@+id/tv_home"
@@ -33,7 +35,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_AboutMe01"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_marginStart="10dp"
@@ -143,7 +144,7 @@
                         android:id="@+id/roundedImageView"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/in41_iv1"
+                        android:src="@drawable/anim_in41"
                         android:scaleType="centerCrop"/>
                 </androidx.cardview.widget.CardView>
 
