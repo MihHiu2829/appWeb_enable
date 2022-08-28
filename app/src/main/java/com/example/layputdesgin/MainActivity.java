@@ -22,7 +22,15 @@ public class MainActivity extends baseAct<ActivityMainBinding> {
 
     @Override
     protected void initViews() {
-                binding.tvAboutMe01.setOnClickListener(v -> gotoAboutme(v));
+                binding.tvAboutMe01.setOnClickListener(v -> gotoAboutme(v)) ;
+                binding.tvContract01.setOnClickListener(v -> gotoContact(v)) ;
+    }
+
+        private void gotoContact(View v) {
+            Intent intent = new Intent() ;
+            v.startAnimation(AnimationUtils.loadAnimation(this, androidx.appcompat.R.anim.abc_fade_in));
+            intent.setClass(this,MainActivity.class);
+            startActivity(intent);
     }
 
     private void gotoAboutme(View v) {
